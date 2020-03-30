@@ -21,7 +21,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let win = UIWindow(windowScene: windowScene)
         win.makeKeyAndVisible()
-        win.rootViewController = BroadcastController()
+        
+        win.rootViewController = MainTabBarController()
         window = win
     }
 

@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+struct Post: Decodable {
+    let id: String
+    let text: String
+    let createdAt: Date
+    let user: User
+    let imageUrl: String
+    
+    var fromNow: String?
+    
+    var comments: [Comment]?
+    var hasLiked: Bool?
+    
+    var numLikes: Int
+}

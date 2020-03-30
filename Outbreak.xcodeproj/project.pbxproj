@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03D59F203EFF3E0938E04F08 /* Pods_Outbreak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF600AC3C18CFFC702F75AB /* Pods_Outbreak.framework */; };
 		8751ADDF242C40BE00EFF2B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751ADDE242C40BE00EFF2B4 /* AppDelegate.swift */; };
 		8751ADE1242C40BE00EFF2B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751ADE0242C40BE00EFF2B4 /* SceneDelegate.swift */; };
 		8751ADE3242C40BE00EFF2B4 /* DeviceToiBeaconController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751ADE2242C40BE00EFF2B4 /* DeviceToiBeaconController.swift */; };
@@ -14,9 +15,33 @@
 		8751ADE8242C40C600EFF2B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8751ADE7242C40C600EFF2B4 /* Assets.xcassets */; };
 		8751ADEB242C40C600EFF2B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8751ADE9242C40C600EFF2B4 /* LaunchScreen.storyboard */; };
 		8751ADF3242C453300EFF2B4 /* BroadcastController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751ADF2242C453300EFF2B4 /* BroadcastController.swift */; };
+		8751AE07242F8F9E00EFF2B4 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE06242F8F9E00EFF2B4 /* HomeController.swift */; };
+		8751AE0A242F92C000EFF2B4 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE09242F92C000EFF2B4 /* LoginController.swift */; };
+		8751AE0C242FB2C400EFF2B4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE0B242FB2C400EFF2B4 /* Post.swift */; };
+		8751AE0E242FB30400EFF2B4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE0D242FB30400EFF2B4 /* User.swift */; };
+		8751AE10242FB8E400EFF2B4 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE0F242FB8E400EFF2B4 /* RegisterController.swift */; };
+		8751AE12242FBA3900EFF2B4 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE11242FBA3900EFF2B4 /* Service.swift */; };
+		8751AE172430189900EFF2B4 /* CreatePostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE162430189900EFF2B4 /* CreatePostController.swift */; };
+		8751AE1A2430F87100EFF2B4 /* UsersSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE192430F87100EFF2B4 /* UsersSearchController.swift */; };
+		8751AE1C2430F90E00EFF2B4 /* UserSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE1B2430F90E00EFF2B4 /* UserSearchCell.swift */; };
+		8751AE1F2431017300EFF2B4 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE1E2431017300EFF2B4 /* ProfileController.swift */; };
+		8751AE21243101E000EFF2B4 /* UserPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE20243101E000EFF2B4 /* UserPostCell.swift */; };
+		8751AE232431071900EFF2B4 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE222431071900EFF2B4 /* ProfileHeader.swift */; };
+		8751AE26243168F800EFF2B4 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE25243168F800EFF2B4 /* MainTabBarController.swift */; };
+		8751AE2824316CBF00EFF2B4 /* ProfileController+ChangeAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE2724316CBF00EFF2B4 /* ProfileController+ChangeAvatar.swift */; };
+		8751AE2B2431CB0E00EFF2B4 /* PostDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE2A2431CB0E00EFF2B4 /* PostDetailController.swift */; };
+		8751AE2D2431D29200EFF2B4 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE2C2431D29200EFF2B4 /* CommentCell.swift */; };
+		8751AE2F2431D2E100EFF2B4 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE2E2431D2E100EFF2B4 /* Comment.swift */; };
+		8751AE312431D32700EFF2B4 /* CustomInputAccessory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE302431D32700EFF2B4 /* CustomInputAccessory.swift */; };
+		8751AE332431E61E00EFF2B4 /* LikesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE322431E61E00EFF2B4 /* LikesController.swift */; };
+		8751AE35243208DE00EFF2B4 /* BeaconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE34243208DE00EFF2B4 /* BeaconViewController.swift */; };
+		8751AE3724320CB800EFF2B4 /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE3624320CB800EFF2B4 /* AnnotationView.swift */; };
+		8751AE3924322F6800EFF2B4 /* TrackerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8751AE3824322F6800EFF2B4 /* TrackerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AF600AC3C18CFFC702F75AB /* Pods_Outbreak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Outbreak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4355D14F94FBA45D25786C45 /* Pods-Outbreak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Outbreak.debug.xcconfig"; path = "Target Support Files/Pods-Outbreak/Pods-Outbreak.debug.xcconfig"; sourceTree = "<group>"; };
 		8751ADDB242C40BE00EFF2B4 /* Outbreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Outbreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8751ADDE242C40BE00EFF2B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8751ADE0242C40BE00EFF2B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +51,29 @@
 		8751ADEA242C40C600EFF2B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8751ADEC242C40C600EFF2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8751ADF2242C453300EFF2B4 /* BroadcastController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastController.swift; sourceTree = "<group>"; };
+		8751AE06242F8F9E00EFF2B4 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		8751AE09242F92C000EFF2B4 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		8751AE0B242FB2C400EFF2B4 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8751AE0D242FB30400EFF2B4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8751AE0F242FB8E400EFF2B4 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		8751AE11242FBA3900EFF2B4 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		8751AE162430189900EFF2B4 /* CreatePostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostController.swift; sourceTree = "<group>"; };
+		8751AE192430F87100EFF2B4 /* UsersSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersSearchController.swift; sourceTree = "<group>"; };
+		8751AE1B2430F90E00EFF2B4 /* UserSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchCell.swift; sourceTree = "<group>"; };
+		8751AE1E2431017300EFF2B4 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		8751AE20243101E000EFF2B4 /* UserPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPostCell.swift; sourceTree = "<group>"; };
+		8751AE222431071900EFF2B4 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		8751AE25243168F800EFF2B4 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		8751AE2724316CBF00EFF2B4 /* ProfileController+ChangeAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileController+ChangeAvatar.swift"; sourceTree = "<group>"; };
+		8751AE2A2431CB0E00EFF2B4 /* PostDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailController.swift; sourceTree = "<group>"; };
+		8751AE2C2431D29200EFF2B4 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		8751AE2E2431D2E100EFF2B4 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		8751AE302431D32700EFF2B4 /* CustomInputAccessory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInputAccessory.swift; sourceTree = "<group>"; };
+		8751AE322431E61E00EFF2B4 /* LikesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesController.swift; sourceTree = "<group>"; };
+		8751AE34243208DE00EFF2B4 /* BeaconViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconViewController.swift; sourceTree = "<group>"; };
+		8751AE3624320CB800EFF2B4 /* AnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
+		8751AE3824322F6800EFF2B4 /* TrackerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerController.swift; sourceTree = "<group>"; };
+		CE6930C5C86E01D31C9D9FCD /* Pods-Outbreak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Outbreak.release.xcconfig"; path = "Target Support Files/Pods-Outbreak/Pods-Outbreak.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +81,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03D59F203EFF3E0938E04F08 /* Pods_Outbreak.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48204E31ACD92772E8DA3A58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4355D14F94FBA45D25786C45 /* Pods-Outbreak.debug.xcconfig */,
+				CE6930C5C86E01D31C9D9FCD /* Pods-Outbreak.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8751ADD2242C40BE00EFF2B4 = {
 			isa = PBXGroup;
 			children = (
 				8751ADDD242C40BE00EFF2B4 /* Outbreak */,
 				8751ADDC242C40BE00EFF2B4 /* Products */,
+				48204E31ACD92772E8DA3A58 /* Pods */,
+				E5B5789824FB9CB55A73AACF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +118,142 @@
 		8751ADDD242C40BE00EFF2B4 /* Outbreak */ = {
 			isa = PBXGroup;
 			children = (
+				8751AE00242F8ECC00EFF2B4 /* API */,
+				8751AE03242F8EF200EFF2B4 /* Controllers */,
+				8751AE01242F8ED900EFF2B4 /* Models */,
+				8751AE02242F8EE600EFF2B4 /* Views */,
 				8751ADDE242C40BE00EFF2B4 /* AppDelegate.swift */,
-				8751ADE0242C40BE00EFF2B4 /* SceneDelegate.swift */,
-				8751ADE2242C40BE00EFF2B4 /* DeviceToiBeaconController.swift */,
-				8751ADF2242C453300EFF2B4 /* BroadcastController.swift */,
-				8751ADE4242C40BE00EFF2B4 /* Main.storyboard */,
 				8751ADE7242C40C600EFF2B4 /* Assets.xcassets */,
-				8751ADE9242C40C600EFF2B4 /* LaunchScreen.storyboard */,
 				8751ADEC242C40C600EFF2B4 /* Info.plist */,
+				8751ADE9242C40C600EFF2B4 /* LaunchScreen.storyboard */,
+				8751ADE4242C40BE00EFF2B4 /* Main.storyboard */,
+				8751ADE0242C40BE00EFF2B4 /* SceneDelegate.swift */,
 			);
 			path = Outbreak;
+			sourceTree = "<group>";
+		};
+		8751AE00242F8ECC00EFF2B4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				8751AE11242FBA3900EFF2B4 /* Service.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		8751AE01242F8ED900EFF2B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8751AE0B242FB2C400EFF2B4 /* Post.swift */,
+				8751AE0D242FB30400EFF2B4 /* User.swift */,
+				8751AE2E2431D2E100EFF2B4 /* Comment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8751AE02242F8EE600EFF2B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8751AE1B2430F90E00EFF2B4 /* UserSearchCell.swift */,
+				8751AE20243101E000EFF2B4 /* UserPostCell.swift */,
+				8751AE222431071900EFF2B4 /* ProfileHeader.swift */,
+				8751AE2C2431D29200EFF2B4 /* CommentCell.swift */,
+				8751AE302431D32700EFF2B4 /* CustomInputAccessory.swift */,
+				8751AE3624320CB800EFF2B4 /* AnnotationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8751AE03242F8EF200EFF2B4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8751AE292431CAF800EFF2B4 /* PostDetail */,
+				8751AE24243168DF00EFF2B4 /* TabBar */,
+				8751AE1D2431015E00EFF2B4 /* Profile */,
+				8751AE182430F85700EFF2B4 /* Search */,
+				8751AE152430188300EFF2B4 /* CreatePost */,
+				8751AE08242F92A000EFF2B4 /* Auth */,
+				8751AE05242F8F7300EFF2B4 /* Beacon */,
+				8751AE04242F8F5C00EFF2B4 /* Home */,
+				8751AE3824322F6800EFF2B4 /* TrackerController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8751AE04242F8F5C00EFF2B4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8751AE06242F8F9E00EFF2B4 /* HomeController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8751AE05242F8F7300EFF2B4 /* Beacon */ = {
+			isa = PBXGroup;
+			children = (
+				8751ADF2242C453300EFF2B4 /* BroadcastController.swift */,
+				8751ADE2242C40BE00EFF2B4 /* DeviceToiBeaconController.swift */,
+				8751AE34243208DE00EFF2B4 /* BeaconViewController.swift */,
+			);
+			path = Beacon;
+			sourceTree = "<group>";
+		};
+		8751AE08242F92A000EFF2B4 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				8751AE09242F92C000EFF2B4 /* LoginController.swift */,
+				8751AE0F242FB8E400EFF2B4 /* RegisterController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		8751AE152430188300EFF2B4 /* CreatePost */ = {
+			isa = PBXGroup;
+			children = (
+				8751AE162430189900EFF2B4 /* CreatePostController.swift */,
+			);
+			path = CreatePost;
+			sourceTree = "<group>";
+		};
+		8751AE182430F85700EFF2B4 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				8751AE192430F87100EFF2B4 /* UsersSearchController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		8751AE1D2431015E00EFF2B4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8751AE1E2431017300EFF2B4 /* ProfileController.swift */,
+				8751AE2724316CBF00EFF2B4 /* ProfileController+ChangeAvatar.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8751AE24243168DF00EFF2B4 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8751AE25243168F800EFF2B4 /* MainTabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		8751AE292431CAF800EFF2B4 /* PostDetail */ = {
+			isa = PBXGroup;
+			children = (
+				8751AE2A2431CB0E00EFF2B4 /* PostDetailController.swift */,
+				8751AE322431E61E00EFF2B4 /* LikesController.swift */,
+			);
+			path = PostDetail;
+			sourceTree = "<group>";
+		};
+		E5B5789824FB9CB55A73AACF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AF600AC3C18CFFC702F75AB /* Pods_Outbreak.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8751ADEF242C40C600EFF2B4 /* Build configuration list for PBXNativeTarget "Outbreak" */;
 			buildPhases = (
+				A99A4869BE0D2C1E0BBB0D14 /* [CP] Check Pods Manifest.lock */,
 				8751ADD7242C40BE00EFF2B4 /* Sources */,
 				8751ADD8242C40BE00EFF2B4 /* Frameworks */,
 				8751ADD9242C40BE00EFF2B4 /* Resources */,
+				8F9BAB5244643790F4D83ABE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +324,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8F9BAB5244643790F4D83ABE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Outbreak/Pods-Outbreak-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Outbreak/Pods-Outbreak-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Outbreak/Pods-Outbreak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A99A4869BE0D2C1E0BBB0D14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Outbreak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8751ADD7242C40BE00EFF2B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8751ADE3242C40BE00EFF2B4 /* DeviceToiBeaconController.swift in Sources */,
+				8751AE0A242F92C000EFF2B4 /* LoginController.swift in Sources */,
+				8751AE26243168F800EFF2B4 /* MainTabBarController.swift in Sources */,
+				8751AE21243101E000EFF2B4 /* UserPostCell.swift in Sources */,
+				8751AE35243208DE00EFF2B4 /* BeaconViewController.swift in Sources */,
 				8751ADDF242C40BE00EFF2B4 /* AppDelegate.swift in Sources */,
 				8751ADE1242C40BE00EFF2B4 /* SceneDelegate.swift in Sources */,
+				8751AE2B2431CB0E00EFF2B4 /* PostDetailController.swift in Sources */,
+				8751AE1A2430F87100EFF2B4 /* UsersSearchController.swift in Sources */,
+				8751AE1F2431017300EFF2B4 /* ProfileController.swift in Sources */,
+				8751AE2F2431D2E100EFF2B4 /* Comment.swift in Sources */,
+				8751AE312431D32700EFF2B4 /* CustomInputAccessory.swift in Sources */,
+				8751AE0E242FB30400EFF2B4 /* User.swift in Sources */,
 				8751ADF3242C453300EFF2B4 /* BroadcastController.swift in Sources */,
+				8751AE3924322F6800EFF2B4 /* TrackerController.swift in Sources */,
+				8751AE0C242FB2C400EFF2B4 /* Post.swift in Sources */,
+				8751AE232431071900EFF2B4 /* ProfileHeader.swift in Sources */,
+				8751AE12242FBA3900EFF2B4 /* Service.swift in Sources */,
+				8751AE3724320CB800EFF2B4 /* AnnotationView.swift in Sources */,
+				8751AE2824316CBF00EFF2B4 /* ProfileController+ChangeAvatar.swift in Sources */,
+				8751AE07242F8F9E00EFF2B4 /* HomeController.swift in Sources */,
+				8751AE10242FB8E400EFF2B4 /* RegisterController.swift in Sources */,
+				8751AE1C2430F90E00EFF2B4 /* UserSearchCell.swift in Sources */,
+				8751AE172430189900EFF2B4 /* CreatePostController.swift in Sources */,
+				8751AE2D2431D29200EFF2B4 /* CommentCell.swift in Sources */,
+				8751AE332431E61E00EFF2B4 /* LikesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +538,7 @@
 		};
 		8751ADF0242C40C600EFF2B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4355D14F94FBA45D25786C45 /* Pods-Outbreak.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +557,7 @@
 		};
 		8751ADF1242C40C600EFF2B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6930C5C86E01D31C9D9FCD /* Pods-Outbreak.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

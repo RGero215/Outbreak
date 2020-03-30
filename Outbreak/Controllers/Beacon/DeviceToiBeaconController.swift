@@ -12,6 +12,7 @@ import CoreLocation
 
 class DeviceToiBeaconController: UIViewController, CBPeripheralManagerDelegate {
     
+    
     var localBeacon: CLBeaconRegion!
     var beaconPeripheralData: NSDictionary!
     var peripheralManager: CBPeripheralManager!
