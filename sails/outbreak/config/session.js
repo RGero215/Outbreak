@@ -11,6 +11,10 @@
 
 module.exports.session = {
 
+  cookie: {
+    _expires: 365 * 24 * 60 * 60 * 1000
+  },
+
   /***************************************************************************
   *                                                                          *
   * Session secret is automatically generated when your new app is created   *
@@ -19,6 +23,9 @@ module.exports.session = {
   *                                                                          *
   ***************************************************************************/
   secret: 'd4780a39db3f8645ccd9026c8788c494',
+  adapter: 'connect-mongo',
+  url: 'mongodb://rgero215:Pichardo79@ds113855.mlab.com:13855/heroku_5k5l926d',
+  collection: 'sessions',
 
 
   /***************************************************************************

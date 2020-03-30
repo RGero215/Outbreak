@@ -6,7 +6,71 @@
 
 module.exports = {
 
+  // Custom JSON Function
+  customToJSON: function() {
+    // Return a shallow copy of this record with the password and ssn omitted
+    // return _.omit(this, ['password', 'ssn'])
+
+    return {id: this.id,
+        fullName: this.fullName,
+        emailAddress: this.emailAddress,
+        bio: this.bio,
+        profileImageUrl: this.profileImageUrl,
+        following: this.following,
+        followers: this.followers,
+        posts: this.posts,
+        isHealthy: this.isHealthy,
+        isPositive: this.isPositive,
+        hasSymptoms: this.hasSymptoms,
+        UUID: this.UUID,
+        major: this.major,
+        minor: this.minor,
+      }
+  },
+
   attributes: {
+    UUID: {
+      type: 'string',
+      defaultsTo: '5A4BCFCE-174E-4BAC-A814-092E77F6B7E5',
+    },
+    major: {
+      type: 'number',
+      defaultsTo: 123,
+    },
+
+    minor: {
+      type: 'number',
+      defaultsTo: 456,
+    },
+
+    bio: {
+      type: 'string'
+    },
+
+    profileImageUrl: {
+      type: 'string'
+    },
+
+    following: {
+      collection: 'user'
+    },
+
+    followers: {
+      collection: 'user'
+    },
+
+    isHealthy: {
+      type: 'boolean',
+      defaultsTo: true, 
+    },
+
+    isPositive: {
+      type: 'boolean'
+    },
+
+    hasSymptoms: {
+      type: 'boolean'
+    },
 
     //  ╔═╗╦═╗╦╔╦╗╦╔╦╗╦╦  ╦╔═╗╔═╗
     //  ╠═╝╠╦╝║║║║║ ║ ║╚╗╔╝║╣ ╚═╗

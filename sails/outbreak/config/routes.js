@@ -13,7 +13,9 @@ module.exports.routes = {
   //  ╦ ╦╔═╗╔╗ ╔═╗╔═╗╔═╗╔═╗╔═╗
   //  ║║║║╣ ╠╩╗╠═╝╠═╣║ ╦║╣ ╚═╗
   //  ╚╩╝╚═╝╚═╝╩  ╩ ╩╚═╝╚═╝╚═╝
-  'GET /':                   { action: 'view-homepage-or-redirect' },
+
+  // 'GET /':                   { action: 'view-homepage-or-redirect' },
+  'GET /': 'post/home',
   'GET /welcome/:unused?':   { action: 'dashboard/view-welcome' },
 
   'GET /faq':                { action:   'view-faq' },
@@ -57,9 +59,50 @@ module.exports.routes = {
   'PUT   /api/v1/account/update-profile':             { action: 'account/update-profile' },
   'PUT   /api/v1/account/update-billing-card':        { action: 'account/update-billing-card' },
   'PUT   /api/v1/entrance/login':                        { action: 'entrance/login' },
+  // 'POST   /api/v1/entrance/login':                        { action: 'entrance/login' },
   'POST  /api/v1/entrance/signup':                       { action: 'entrance/signup' },
   'POST  /api/v1/entrance/send-password-recovery-email': { action: 'entrance/send-password-recovery-email' },
   'POST  /api/v1/entrance/update-password-and-login':    { action: 'entrance/update-password-and-login' },
   'POST  /api/v1/deliver-contact-form-message':          { action: 'deliver-contact-form-message' },
 
+  'GET /listusers': 'user/listusers',
+  'GET /post': 'post/home',
+  'POST /post': 'post/create',
+  'DELETE /post/:postId': 'post/delete',
+  'DELETE /feeditem/:id': 'feeditem/delete',
+
+  'POST /like/:id': 'feeditem/like',
+  'POST /dislike/:id': 'feeditem/dislike',
+
+
+  'GET /search': 'user/search',
+  'POST /follow/:id': 'user/follow',
+  'POST /unfollow/:id': 'user/unfollow',
+
+  'POST /healthy/:id': 'user/healthy',
+  'POST /unhealthy/:id': 'user/unhealthy',
+
+  'POST /positive/:id': 'user/positive',
+  'POST /notpositive/:id': 'user/notpositive',
+
+  'POST /symptoms/:id': 'user/symptoms',
+  'POST /nosymptoms/:id': 'user/nosymptoms',
+
+  'GET /likes/:id': 'post/likes',
+  'GET /positives': 'post/positives',
+  'GET /symptoms': 'post/symptoms',
+
+  'GET /user/:id': 'user/publicprofile',
+
+  'GET /profile': 'user/profile',
+  'POST /profile': 'user/update',
+  'GET /post/:id': 'post/index',
+  'POST /comment/post/:id': 'comment/create',
+
+  'GET /customauth/login': {
+    view: 'pages/customauth/custom-login',
+    locals: {
+      layout: 'layouts/auth-layout'
+    }
+  }
 };
